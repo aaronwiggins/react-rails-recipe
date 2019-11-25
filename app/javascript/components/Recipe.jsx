@@ -11,9 +11,9 @@ class Recipe extends React.Component {
 
     componentDidMount() {
         const {
-        match: {
-            params: { id }
-        }
+            match: {
+                params: { id }
+            }
         } = this.props;
 
         const url = `/api/v1/show/${id}`;
